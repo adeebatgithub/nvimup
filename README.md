@@ -16,8 +16,6 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 - **Git Integration**: Seamless git operations via [vim-fugitive](https://github.com/tpope/vim-fugitive).
 - **Elegant Theme**: Aesthetic visuals with [Catppuccin](https://github.com/catppuccin/nvim).
 
-## Keymaps
-
 # Key Mappings
 
 **Note**: The `<leader>` key is set to the **Spacebar** (` `).
