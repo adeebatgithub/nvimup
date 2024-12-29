@@ -2,6 +2,8 @@
 
 A minimal Neovim setup for Windows using Lua and essential plugins to enhance your coding experience.
 
+![Neovim Configuration Screenshot](./nvimup.png)
+
 ## Features
 
 - **Lua Configuration**: Fast and efficient.
