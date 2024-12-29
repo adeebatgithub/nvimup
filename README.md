@@ -30,15 +30,15 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 - **Ctrl + Right Arrow** - Increase window width
 - **Space + n** - Move to the left window
 - **Space + m** - Move to the right window
-- **Press `J`** - Join the line below to the current line without moving the cursor
-- **Ctrl + d** - Scroll down half a page and center the cursor
-- **Ctrl + u** - Scroll up half a page and center the cursor
-- **Press `n`** - Move to the next search match and center the screen
-- **Press `N`** - Move to the previous search match and center the screen
+- **J** - Join the line below to the current line without moving the cursor
+- **Ctrl + d**- Scroll down half a page and center the cursor
+- **Ctrl + u**- Scroll up half a page and center the cursor
+- **n** - Move to the next search match and center the screen
+- **N** - Move to the previous search match and center the screen
 - **Space + y** - Yank (copy) to the system clipboard
 - **Space + Y** - Yank (copy) the entire line to the system clipboard
 - **Space + d** - Delete without yanking (does not affect registers)
-- **Press `Q`** - Disable Ex mode (unmaps `Q`)
+- **Q** - Disable Ex mode (unmaps `Q`)
 - **Ctrl + f** - Open `tmux-sessionizer` in a new tmux window
 - **Space + f** - Format the current buffer with LSP
 - **Ctrl + k** - Next item in the quickfix list and center the cursor
@@ -51,9 +51,9 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 
 ### Telescope Plugin Mappings
 
-- **Space + p f** - Find files using Telescope
+- **Space + pf** - Find files using Telescope
 - **Ctrl + p** - Find Git-tracked files using Telescope
-- **Space + p s** - Search for a string using Telescope's grep (prompts for input)
+- **Space + ps** - Search for a string using Telescope's grep (prompts for input)
 
 ### Harpoon Plugin Mappings
 
@@ -66,10 +66,10 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 
 ### Custom Code Snippets
 
-- **Space + e e** - Insert `if err != nil { return err }`
-- **Space + e a** - Insert `assert.NoError(err, "")` and position the cursor inside the quotes
-- **Space + e f** - Insert `if err != nil { log.Fatalf(...) }`
-- **Space + e l** - Insert `if err != nil { .logger.Error(...) }`
+- **Space + ee** - Insert `if err != nil { return err }`
+- **Space + ea** - Insert `assert.NoError(err, "")` and position the cursor inside the quotes
+- **Space + ef** - Insert `if err != nil { log.Fatalf(...) }`
+- **Space + el** - Insert `if err != nil { .logger.Error(...) }`
 
 ## Insert Mode
 
@@ -78,8 +78,8 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 
 ## Visual Mode
 
-- **Press `J`** - Move selected text down
-- **Press `K`** - Move selected text up
+- **J** - Move selected text down
+- **K** - Move selected text up
 - **Space + p** - Paste over the selection without yanking
 
 ---
