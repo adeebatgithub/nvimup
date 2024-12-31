@@ -15,6 +15,7 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 - **Undo History**: Visualize changes using [undotree](https://github.com/mbbill/undotree).
 - **Git Integration**: Seamless git operations via [vim-fugitive](https://github.com/tpope/vim-fugitive).
 - **Elegant Theme**: Aesthetic visuals with [Catppuccin](https://github.com/catppuccin/nvim).
+- **File Explorer**: Easy Navigation with [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
 
 # Key Mappings
 
@@ -23,7 +24,7 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 ## Normal Mode
 
 - **Space + e** - Open the file explorer
-- **Space + o** - Open the file explorer in a horizontal split
+- **Space + o** - Focus on the file explorer
 - **Space + w** - Save the current file
 - **Space + q** - Quit Neovim
 - **Ctrl + Left Arrow** - Decrease window width
@@ -51,7 +52,7 @@ A minimal Neovim setup for Windows using Lua and essential plugins to enhance yo
 
 ### Telescope Plugin Mappings
 
-- **Space + pf** - Find files using Telescope
+- **Space + ff** - Find files using Telescope
 - **Ctrl + p** - Find Git-tracked files using Telescope
 - **Space + ps** - Search for a string using Telescope's grep (prompts for input)
 
