@@ -1,9 +1,9 @@
 vim.g.mapleader = " "
 
---vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>') -- Map <leader>e to toggle the file explorer
---vim.keymap.set("n", "<leader>o", ":NvimTreeFocus<CR>")
-vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
-vim.keymap.set("n", "<leader>o", "<CMD>Sex!<CR>")
+vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>') -- Map <leader>e to toggle the file explorer
+vim.keymap.set("n", "<leader>o", ":NvimTreeFocus<CR>")
+-- vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>o", "<CMD>Sex!<CR>")
 
 -- simple save and quit
 vim.keymap.set("n", "<leader>w", "<CMD>update<CR>")
